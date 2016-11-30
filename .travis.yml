@@ -3,6 +3,11 @@ language: go
 go:
   - 1.7
   - master
+env:
+  global:
+    - GOOS="windows"
+    - GOARCH="amd64"
+    
 script: 
   - go build
   - ls -ltr
