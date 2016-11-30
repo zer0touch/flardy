@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "About Us",
+        "snip": "Get-Process"
+    },
+    {
+        "id": 2,
+        "title": "Team",
+        "snip": "Set-ExecutionPolicy Unrestricted"
+    },
+    {
+        "id": 3,
+        "title": "Projects",
+        "snip": "iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex"
+    },
+    {
+        "id": 4,
+        "title": "Hire Us",
+        "snip": "choco install golang -y"
+    },
+    {
+        "id": 4,
+        "title": "install java jdk",
+        "snip": "choco install jdk8 -params \"x64=false\" -y"
+    },
+    { 
+        "id": 5,
+        "title": "install something",
+        "snip": "Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All"
+    },
+    { 
+        "id": 6,
+        "title": "install something",
+        "snip": "Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux"
+    }
+
+]
