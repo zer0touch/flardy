@@ -27,12 +27,12 @@
     { 
         "id": 5,
         "title": "install something",
-        "snip": "Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V -All"
-    },
-    { 
-        "id": 6,
-        "title": "install something",
         "snip": "Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux"
+    },
+    {   "id": 6,
+        "title": "install something",
+        "snip": ".$profile"
     }
+        
 
 ]
