@@ -9,5 +9,5 @@ env:
     - GOARCH="amd64"
     
 script: 
-  - go build
+  - GOOS=windos GOARCH=amd64 go build
   - ls -ltr
