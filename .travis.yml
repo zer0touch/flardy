@@ -1,3 +1,4 @@
+
 language: go
 
 go:
@@ -10,4 +11,14 @@ env:
     
 script: 
   - GOOS=windows GOARCH=amd64 go build
+  - GOOS=windows GOARCH=amd64 go build
   - ls -ltr
+deploy:
+  provider: releases
+  api_key: "5de9a3e9519d11499ce682496d2abd425a6129f2"
+  file: 
+    - "flardy.exe"
+    - "flardy"
+  skip_cleanup: true
+  on:
+    tags: true
