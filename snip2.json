@@ -1,0 +1,32 @@
+[
+    {
+        "id": 7,
+        "title": "About Us",
+        "snip": "bash /y"
+    },
+    {
+        "id": 8,
+        "title": "Install Docker machine",
+        "snip": "choco install docker-machine -y"
+    },
+    {
+        "id": 8,
+        "title": "Install Docker machine",
+        "snip": "choco install docker -y"
+    },
+    {
+        "id": 8,
+        "title": "Install Docker machine",
+        "snip": "choco install minikube -y"
+    },
+    {
+        "id": 8,
+        "title": "Install Docker machine",
+        "snip": "bash -c 'mkdir /tmp/.bin'"
+    },
+    {
+        "id": 9,
+        "title": "Install Docker machine",
+        "snip": "bash -c 'curl -L https://s3.amazonaws.com/downloads.wercker.com/cli/stable/linux_amd64/wercker -o /tmp/wercker'"
+    }
+]
