@@ -3,4 +3,4 @@ language: go
 go:
   - 1.7
   - master
-  script: go build
+script: go build
