@@ -15,7 +15,7 @@ script:
   - ls -ltr
 deploy:
   provider: releases
-  api_key: "0c42e48931c12327fabcd446b01f20baa1c2e18d"
+  api_key: "48f8a735aeb5ce5433ebcb2f941b045fd80ef566"
   file: 
     - "flardy.exe"
     - "flardy"
